@@ -13,8 +13,8 @@
   ],
   "require": {
     "php": ">=5.3",
-    "monolog/monolog": ">=3.8.0",
-    "theorchard/monolog-cascade": ">=0.6.1"
+    "monolog/monolog": "3.8.0",
+    "theorchard/monolog-cascade": "0.6.1"
   },
   "autoload": {
     "psr-4": {"Bex\\Monolog\\": "src/"},
