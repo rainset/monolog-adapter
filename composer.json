@@ -1,23 +1,20 @@
 {
-  "name": "bitrix-expert/monolog-adapter",
+  "name": "rainset/monolog-adapter",
   "description": "Monolog adapter for Bitrix CMS",
   "keywords": ["bitrix", "monolog", "logger", "log", "psr-3"],
   "type": "library",
   "license": "MIT",
-  "support": {
-    "issues": "https://github.com/bitrix-expert/monolog-adapter/issues",
-    "source": "https://github.com/bitrix-expert/monolog-adapter/"
-  },
+  "support": {},
   "authors": [
     {
-      "name": "Nik Samokhvalov",
-      "email": "nik@samokhvalov.info"
+      "name": "Rinat Sharipov",
+      "email": "nrg2911@bk.ru"
     }
   ],
   "require": {
     "php": ">=5.3",
-    "monolog/monolog": "1.*",
-    "theorchard/monolog-cascade": "~0.2"
+    "monolog/monolog": ">=3.8.0",
+    "theorchard/monolog-cascade": ">=0.6.1"
   },
   "autoload": {
     "psr-4": {"Bex\\Monolog\\": "src/"},
